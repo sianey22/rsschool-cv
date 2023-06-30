@@ -28,12 +28,28 @@ I am interested in a career in frontend development. My goal is to become a prof
 ## Skills
 
 * Python 
-* JavaScript
-* HTML/CSS
+* JavaScript (basic)
+* HTML/CSS (basic)
 * Git
 * SQL
 
+## Code example
 
+Example 1: You will be given an array a and a value x. All you need to do is check whether the provided array contains the value. Array can contain numbers or strings. X can be either. Return true if the array contains the value, false if not.
+
+``` javascript
+function check(a, x) {
+  return a.includes(x)
+}
+```
+
+Example 2: Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
+
+```javascript
+var summation = function (num) {
+  return num * (num + 1) / 2
+}
+```
 
 ## Languages
 
