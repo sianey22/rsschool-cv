@@ -55,3 +55,7 @@ var summation = function (num) {
 
 * English - A2
 * Russian - native
+
+## Projects
+
+[CV#1. Markdown & Git](https://github.com/sianey22/rsschool-cv)
