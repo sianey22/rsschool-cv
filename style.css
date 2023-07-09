@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header nav {
+    padding: 20px;
+}
+
+.list {
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.list-item{
+    padding: 0 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#4b744b;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.title{
+    position: relative;
+}
+
+.title h1 {
+    height: 200px;
+    padding: 67px;
+    background-color: #588357;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.title img {
+    width: 320px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.container {
+    display: flex;
+    word-wrap: break-word;
+    background-color: #b4dab4
+}
+
+.left-area {
+    width: 45%;
+    margin-top: 180px;
+    padding: 0 50px;
+    line-height: 30px;
+}
+
+.information h2 {
+    font-weight: bold;
+    color:#4b744b;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.right-area {
+    width: 55%;
+    padding: 25px 50px;
+    background-color: #d9f3d9;
+    line-height: 30px;
+}
+
+.contacts {
+    list-style: none;
+}
+
+pre {
+    background-color: #d9f3d9;
+    padding: 10px;
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-x: auto;
+    border: 1px solid #333;
+}
+
+code {
+    color: #333;
+}
+
+.flooter-cont {
+    background-color: #588357;
+    padding: 20px
+}
+
+.year {
+    font:bold 25px Arial
+}
